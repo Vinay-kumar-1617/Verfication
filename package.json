@@ -1,0 +1,40 @@
+{
+  "name": "vehicle-kyc-sandbox",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx --ignore-pattern 'supabase/**'",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "@types/node": "^26.6.3",
+    "@types/react-native": "~0.69.1",
+    "expo": "^57.0.24",
+    "expo-dev-client": "~57.0.19",
+    "expo-document-picker": "^57.0.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.0.1",
+    "@testing-library/react-native": "^13.1.0",
+    "@types/react": "~19.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "react-test-renderer": "^19.2.3",
+    "typescript": "~6.0.3",
+    "vitest": "^2.1.9"
+  }
+}

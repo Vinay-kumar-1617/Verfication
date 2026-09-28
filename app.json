@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Veriflow Sandbox",
+    "slug": "vehicle-kyc-sandbox",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "myapp",
+    "assetBundlePatterns": ["**/*"]
+  }
+}
